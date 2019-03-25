@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80395B552248F5C10082410C /* CAEAGLLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B542248F5C10082410C /* CAEAGLLayerView.m */; };
+		80395B58224904E80082410C /* AVPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B57224904E80082410C /* AVPlayerLayerView.m */; };
+		80395B5A2249069C0082410C /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 80395B592249069C0082410C /* monkey.mp4 */; };
+		80395B5D22490C710082410C /* CALayerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B5C22490C710082410C /* CALayerAnimationView.m */; };
+		80395B60224919230082410C /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B5F224919230082410C /* CurveView.m */; };
 		80737E472245C69800BC4E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E462245C69800BC4E91 /* AppDelegate.m */; };
 		80737E4A2245C69800BC4E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E492245C69800BC4E91 /* ViewController.m */; };
 		80737E4D2245C69800BC4E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80737E4B2245C69800BC4E91 /* Main.storyboard */; };
@@ -15,6 +20,18 @@
 		80737E552245C69A00BC4E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E542245C69A00BC4E91 /* main.m */; };
 		80737E5F2245C69A00BC4E91 /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E5E2245C69A00BC4E91 /* CoreAnimationTests.m */; };
 		80737E6A2245C69A00BC4E91 /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E692245C69A00BC4E91 /* CoreAnimationUITests.m */; };
+		80737E7D2245E5DF00BC4E91 /* minute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E792245E5DF00BC4E91 /* minute@2x.png */; };
+		80737E7E2245E5DF00BC4E91 /* hour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E7A2245E5DF00BC4E91 /* hour@2x.png */; };
+		80737E7F2245E5DF00BC4E91 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E7B2245E5DF00BC4E91 /* clock@2x.png */; };
+		80737E802245E5DF00BC4E91 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E7C2245E5DF00BC4E91 /* second@2x.png */; };
+		80737E8322461AC500BC4E91 /* MatchstickMen.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E8222461AC500BC4E91 /* MatchstickMen.m */; };
+		80737E862246218900BC4E91 /* CATextLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E852246218900BC4E91 /* CATextLayerView.m */; };
+		80737E8922462CF400BC4E91 /* CATransformLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E8822462CF400BC4E91 /* CATransformLayerView.m */; };
+		80737E8C2246653E00BC4E91 /* CAGradientLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E8B2246653E00BC4E91 /* CAGradientLayerView.m */; };
+		80737E8F2246687800BC4E91 /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E8E2246687800BC4E91 /* CAReplicatorLayerView.m */; };
+		80737E9122466D7A00BC4E91 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E9022466D7900BC4E91 /* image.png */; };
+		80737EAA2247319F00BC4E91 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737EA92247319F00BC4E91 /* CAEmitterLayerView.m */; };
+		80737EAE2247352200BC4E91 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737EAD2247352200BC4E91 /* snow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80395B532248F5C10082410C /* CAEAGLLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEAGLLayerView.h; sourceTree = "<group>"; };
+		80395B542248F5C10082410C /* CAEAGLLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEAGLLayerView.m; sourceTree = "<group>"; };
+		80395B56224904E80082410C /* AVPlayerLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerView.h; sourceTree = "<group>"; };
+		80395B57224904E80082410C /* AVPlayerLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerView.m; sourceTree = "<group>"; };
+		80395B592249069C0082410C /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
+		80395B5B22490C710082410C /* CALayerAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALayerAnimationView.h; sourceTree = "<group>"; };
+		80395B5C22490C710082410C /* CALayerAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimationView.m; sourceTree = "<group>"; };
+		80395B5E224919230082410C /* CurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		80395B5F224919230082410C /* CurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
 		80737E422245C69800BC4E91 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80737E452245C69800BC4E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80737E462245C69800BC4E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +77,24 @@
 		80737E652245C69A00BC4E91 /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80737E692245C69A00BC4E91 /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		80737E6B2245C69A00BC4E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80737E792245E5DF00BC4E91 /* minute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minute@2x.png"; sourceTree = "<group>"; };
+		80737E7A2245E5DF00BC4E91 /* hour@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hour@2x.png"; sourceTree = "<group>"; };
+		80737E7B2245E5DF00BC4E91 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		80737E7C2245E5DF00BC4E91 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		80737E8122461AC500BC4E91 /* MatchstickMen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchstickMen.h; sourceTree = "<group>"; };
+		80737E8222461AC500BC4E91 /* MatchstickMen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchstickMen.m; sourceTree = "<group>"; };
+		80737E842246218900BC4E91 /* CATextLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATextLayerView.h; sourceTree = "<group>"; };
+		80737E852246218900BC4E91 /* CATextLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATextLayerView.m; sourceTree = "<group>"; };
+		80737E8722462CF400BC4E91 /* CATransformLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransformLayerView.h; sourceTree = "<group>"; };
+		80737E8822462CF400BC4E91 /* CATransformLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerView.m; sourceTree = "<group>"; };
+		80737E8A2246653E00BC4E91 /* CAGradientLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerView.h; sourceTree = "<group>"; };
+		80737E8B2246653E00BC4E91 /* CAGradientLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerView.m; sourceTree = "<group>"; };
+		80737E8D2246687800BC4E91 /* CAReplicatorLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerView.h; sourceTree = "<group>"; };
+		80737E8E2246687800BC4E91 /* CAReplicatorLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerView.m; sourceTree = "<group>"; };
+		80737E9022466D7900BC4E91 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		80737EA82247319F00BC4E91 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
+		80737EA92247319F00BC4E91 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
+		80737EAD2247352200BC4E91 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +122,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80395B61224921B60082410C /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				80737E8122461AC500BC4E91 /* MatchstickMen.h */,
+				80737E8222461AC500BC4E91 /* MatchstickMen.m */,
+				80737E842246218900BC4E91 /* CATextLayerView.h */,
+				80737E852246218900BC4E91 /* CATextLayerView.m */,
+				80737E8722462CF400BC4E91 /* CATransformLayerView.h */,
+				80737E8822462CF400BC4E91 /* CATransformLayerView.m */,
+				80737E8A2246653E00BC4E91 /* CAGradientLayerView.h */,
+				80737E8B2246653E00BC4E91 /* CAGradientLayerView.m */,
+				80737E8D2246687800BC4E91 /* CAReplicatorLayerView.h */,
+				80737E8E2246687800BC4E91 /* CAReplicatorLayerView.m */,
+				80737EA82247319F00BC4E91 /* CAEmitterLayerView.h */,
+				80737EA92247319F00BC4E91 /* CAEmitterLayerView.m */,
+				80395B532248F5C10082410C /* CAEAGLLayerView.h */,
+				80395B542248F5C10082410C /* CAEAGLLayerView.m */,
+				80395B56224904E80082410C /* AVPlayerLayerView.h */,
+				80395B57224904E80082410C /* AVPlayerLayerView.m */,
+				80395B5B22490C710082410C /* CALayerAnimationView.h */,
+				80395B5C22490C710082410C /* CALayerAnimationView.m */,
+				80395B5E224919230082410C /* CurveView.h */,
+				80395B5F224919230082410C /* CurveView.m */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		80395B62224921DE0082410C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80395B592249069C0082410C /* monkey.mp4 */,
+				80737EAD2247352200BC4E91 /* snow.png */,
+				80737E9022466D7900BC4E91 /* image.png */,
+				80737E7B2245E5DF00BC4E91 /* clock@2x.png */,
+				80737E7A2245E5DF00BC4E91 /* hour@2x.png */,
+				80737E792245E5DF00BC4E91 /* minute@2x.png */,
+				80737E7C2245E5DF00BC4E91 /* second@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		80737E392245C69800BC4E91 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +190,9 @@
 				80737E462245C69800BC4E91 /* AppDelegate.m */,
 				80737E482245C69800BC4E91 /* ViewController.h */,
 				80737E492245C69800BC4E91 /* ViewController.m */,
+				80395B61224921B60082410C /* AnimationView */,
 				80737E4B2245C69800BC4E91 /* Main.storyboard */,
+				80395B62224921DE0082410C /* Resources */,
 				80737E4E2245C69A00BC4E91 /* Assets.xcassets */,
 				80737E502245C69A00BC4E91 /* LaunchScreen.storyboard */,
 				80737E532245C69A00BC4E91 /* Info.plist */,
@@ -235,8 +322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80737EAE2247352200BC4E91 /* snow.png in Resources */,
+				80737E7E2245E5DF00BC4E91 /* hour@2x.png in Resources */,
 				80737E522245C69A00BC4E91 /* LaunchScreen.storyboard in Resources */,
+				80737E9122466D7A00BC4E91 /* image.png in Resources */,
 				80737E4F2245C69A00BC4E91 /* Assets.xcassets in Resources */,
+				80737E7F2245E5DF00BC4E91 /* clock@2x.png in Resources */,
+				80737E7D2245E5DF00BC4E91 /* minute@2x.png in Resources */,
+				80737E802245E5DF00BC4E91 /* second@2x.png in Resources */,
+				80395B5A2249069C0082410C /* monkey.mp4 in Resources */,
 				80737E4D2245C69800BC4E91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +357,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				80737E4A2245C69800BC4E91 /* ViewController.m in Sources */,
+				80395B58224904E80082410C /* AVPlayerLayerView.m in Sources */,
+				80737E862246218900BC4E91 /* CATextLayerView.m in Sources */,
+				80737E8C2246653E00BC4E91 /* CAGradientLayerView.m in Sources */,
+				80737E8F2246687800BC4E91 /* CAReplicatorLayerView.m in Sources */,
+				80737E8322461AC500BC4E91 /* MatchstickMen.m in Sources */,
+				80395B552248F5C10082410C /* CAEAGLLayerView.m in Sources */,
 				80737E552245C69A00BC4E91 /* main.m in Sources */,
+				80737EAA2247319F00BC4E91 /* CAEmitterLayerView.m in Sources */,
+				80395B5D22490C710082410C /* CALayerAnimationView.m in Sources */,
+				80395B60224919230082410C /* CurveView.m in Sources */,
 				80737E472245C69800BC4E91 /* AppDelegate.m in Sources */,
+				80737E8922462CF400BC4E91 /* CATransformLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
