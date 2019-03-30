@@ -12,6 +12,8 @@
 		80395B5A2249069C0082410C /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 80395B592249069C0082410C /* monkey.mp4 */; };
 		80395B5D22490C710082410C /* CALayerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B5C22490C710082410C /* CALayerAnimationView.m */; };
 		80395B60224919230082410C /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80395B5F224919230082410C /* CurveView.m */; };
+		80622C7F224E40A900FC3CA2 /* DrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80622C7E224E40A900FC3CA2 /* DrawImageView.m */; };
+		80622C81224E593400FC3CA2 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 80622C80224E593400FC3CA2 /* cat.png */; };
 		80737E472245C69800BC4E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E462245C69800BC4E91 /* AppDelegate.m */; };
 		80737E4A2245C69800BC4E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737E492245C69800BC4E91 /* ViewController.m */; };
 		80737E4D2245C69800BC4E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80737E4B2245C69800BC4E91 /* Main.storyboard */; };
@@ -32,6 +34,7 @@
 		80737E9122466D7A00BC4E91 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737E9022466D7900BC4E91 /* image.png */; };
 		80737EAA2247319F00BC4E91 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80737EA92247319F00BC4E91 /* CAEmitterLayerView.m */; };
 		80737EAE2247352200BC4E91 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 80737EAD2247352200BC4E91 /* snow.png */; };
+		80B98B27224D075300FC8F5E /* FillingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B98B26224D075300FC8F5E /* FillingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		80395B5C22490C710082410C /* CALayerAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimationView.m; sourceTree = "<group>"; };
 		80395B5E224919230082410C /* CurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
 		80395B5F224919230082410C /* CurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		80622C7D224E40A900FC3CA2 /* DrawImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawImageView.h; sourceTree = "<group>"; };
+		80622C7E224E40A900FC3CA2 /* DrawImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawImageView.m; sourceTree = "<group>"; };
+		80622C80224E593400FC3CA2 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		80737E422245C69800BC4E91 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80737E452245C69800BC4E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80737E462245C69800BC4E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +101,8 @@
 		80737EA82247319F00BC4E91 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
 		80737EA92247319F00BC4E91 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
 		80737EAD2247352200BC4E91 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		80B98B25224D075300FC8F5E /* FillingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillingView.h; sourceTree = "<group>"; };
+		80B98B26224D075300FC8F5E /* FillingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,10 @@
 				80395B5C22490C710082410C /* CALayerAnimationView.m */,
 				80395B5E224919230082410C /* CurveView.h */,
 				80395B5F224919230082410C /* CurveView.m */,
+				80B98B25224D075300FC8F5E /* FillingView.h */,
+				80B98B26224D075300FC8F5E /* FillingView.m */,
+				80622C7D224E40A900FC3CA2 /* DrawImageView.h */,
+				80622C7E224E40A900FC3CA2 /* DrawImageView.m */,
 			);
 			path = AnimationView;
 			sourceTree = "<group>";
@@ -152,6 +164,7 @@
 		80395B62224921DE0082410C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				80622C80224E593400FC3CA2 /* cat.png */,
 				80395B592249069C0082410C /* monkey.mp4 */,
 				80737EAD2247352200BC4E91 /* snow.png */,
 				80737E9022466D7900BC4E91 /* image.png */,
@@ -330,6 +343,7 @@
 				80737E7F2245E5DF00BC4E91 /* clock@2x.png in Resources */,
 				80737E7D2245E5DF00BC4E91 /* minute@2x.png in Resources */,
 				80737E802245E5DF00BC4E91 /* second@2x.png in Resources */,
+				80622C81224E593400FC3CA2 /* cat.png in Resources */,
 				80395B5A2249069C0082410C /* monkey.mp4 in Resources */,
 				80737E4D2245C69800BC4E91 /* Main.storyboard in Resources */,
 			);
@@ -368,7 +382,9 @@
 				80395B5D22490C710082410C /* CALayerAnimationView.m in Sources */,
 				80395B60224919230082410C /* CurveView.m in Sources */,
 				80737E472245C69800BC4E91 /* AppDelegate.m in Sources */,
+				80B98B27224D075300FC8F5E /* FillingView.m in Sources */,
 				80737E8922462CF400BC4E91 /* CATransformLayerView.m in Sources */,
+				80622C7F224E40A900FC3CA2 /* DrawImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
